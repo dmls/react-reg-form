@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class StateDDL extends Component {
+export default class StateOpts extends Component {
 
     constructor(props) {
         super(props);
@@ -8,7 +8,7 @@ export default class StateDDL extends Component {
 
     render() {
         return (
-            <select class="form-control" id="state" name="state">
+            <React.Fragment>
                 <option value="">--</option>
                 <option value="AK">Alaska</option>
                 <option value="AL">Alabama</option>
@@ -62,7 +62,7 @@ export default class StateDDL extends Component {
                 <option value="WI">Wisconsin</option>
                 <option value="WV">West Virginia</option>
                 <option value="WY">Wyoming</option>
-            </select>    
+            </React.Fragment>    
         )
     }
 }
