@@ -1,6 +1,5 @@
 import React from 'react';
 import Form from './form.component';
-import axios from 'axios';
 
 export default class Registration extends Form {
 
